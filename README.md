@@ -23,4 +23,4 @@ fully customizable and compilable tensorflow development environment in docker
 * Compiled with highest NVIDIA compute capability supported by both device and tensorflow
 
 ### Results:
-* training 75% faster (HDRNet with Intel Xeon Silver and 2080Ti)
+* training 75% faster than vanilla wheel install (HDRNet with Intel Xeon Silver and 2080Ti)
