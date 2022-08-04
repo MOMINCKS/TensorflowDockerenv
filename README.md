@@ -1,6 +1,6 @@
 # TensorflowDockerenv
 
-fully customizable and compiled tensorflow development environment in docker
+fully customizable and compilable tensorflow development environment in docker
 
 ### Libraries:
 * protobuf == 3.19.1
@@ -15,5 +15,12 @@ fully customizable and compiled tensorflow development environment in docker
 * tensorflow-io == 0.22.0
 * and more ...
 
-### Requirement:
+### Requirements:
 * tensorrt 8.0.3.4 from NVIDIA website: nv-tensorrt-repo-ubuntu2004-cuda11.3-trt8.0.3.4-ga-20210831_1-1_amd64.deb
+
+### Tips:
+* Compiled with AVX2/AVX512 on
+* Compiled with highest NVIDIA compute capability supported by both device and tensorflow
+
+### Results:
+* training 75% faster (HDRNet with Intel Xeon Silver and 2080Ti)
